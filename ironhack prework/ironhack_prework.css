@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  } section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  section > div {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  section > a {
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  table {
+    width:100px;
+  } 
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 30px;
+    margin-right: 1rem;
+  }img[alt='npm logo'] {
+    width: 70px;
+    padding: 0;
+    margin-right: 1rem;
+  }
+  .search-bar {
+    padding: 0;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    flex-grow: 1;
+    margin: 0.7rem 1rem;
+    margin-right: 2rem;
+  }
+  .see-plans {
+   background-color: #FB3B49;
+   height: 40px;
+   box-shadow:8px 8px 0 rgba(251,59,73,.2);
+   background-color:  rgba(232,217,217,.3);
+  }
+  
+  .join {
+    color: #000;
+    background-color: #fff;
+
+  }
+.icon {
+width: 50px;
+}
